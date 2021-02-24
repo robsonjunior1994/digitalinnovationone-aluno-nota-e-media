@@ -1,0 +1,16 @@
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.exe
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.deps.json
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.runtimeconfig.json
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.runtimeconfig.dev.json
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.dll
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ref\ListaDeAlunos.dll
+C:\Projetos\listaDeAlunos\ListaDeAlunos\bin\Debug\net5.0\ListaDeAlunos.pdb
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.csprojAssemblyReference.cache
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.AssemblyInfoInputs.cache
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.AssemblyInfo.cs
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.csproj.CoreCompileInputs.cache
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.dll
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ref\ListaDeAlunos.dll
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.pdb
+C:\Projetos\listaDeAlunos\ListaDeAlunos\obj\Debug\net5.0\ListaDeAlunos.genruntimeconfig.cache
