@@ -22,7 +22,7 @@ namespace ListaDeAlunos
                     aluno.Nome = Console.ReadLine();
                     
                     Console.WriteLine("Informe a nota do aluno:");
-                    aluno.Nota = double.Parse(Console.ReadLine());
+                    aluno.Notas.Add(double.Parse(Console.ReadLine()));
 
                     alunos.Lista.Add(aluno);
                     break;
@@ -35,6 +35,23 @@ namespace ListaDeAlunos
                     case "3":
                     alunos.GetMedia();
                     Console.WriteLine($"Média dos alunos: {alunos.MediaGeral}");
+
+                    break;
+
+                    case "4":
+                    Console.WriteLine("Digite o nome do aluno que você deseja encontrar");
+                    string nome = Console.ReadLine();
+                    var a = alunos.GetAluno(nome);
+
+                    if(a != null){
+                        Console.WriteLine($"O aluno {a.Nome} encontrado");
+                        Console.WriteLine("Digite mais uma nota para esse aluno");
+                        alunos.AddNotas(Double.Parse(Console.ReadLine()), a.Nome);
+                    }
+
+                    else{
+                         Console.WriteLine($"Aluno {nome}, não foi encontrado!");
+                    }
 
                     break;
 
@@ -57,6 +74,7 @@ namespace ListaDeAlunos
             Console.WriteLine("1- Inserir novo aluno");
             Console.WriteLine("2- Listar alunos");
             Console.WriteLine("3- Calcular média geral");
+            Console.WriteLine("4- Encontrar um aluno e adicionar nota");
             Console.WriteLine("X- Sair");
             Console.WriteLine();
 
