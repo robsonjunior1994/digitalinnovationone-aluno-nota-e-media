@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\listaDeAlunos\\ListaDeAlunos\\ListaDeAlunos.csproj": {}
+    "C:\\Projetos\\digitalinnovationone-aluno-nota-e-media\\ListaDeAlunos.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\listaDeAlunos\\ListaDeAlunos\\ListaDeAlunos.csproj": {
+    "C:\\Projetos\\digitalinnovationone-aluno-nota-e-media\\ListaDeAlunos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\listaDeAlunos\\ListaDeAlunos\\ListaDeAlunos.csproj",
+        "projectUniqueName": "C:\\Projetos\\digitalinnovationone-aluno-nota-e-media\\ListaDeAlunos.csproj",
         "projectName": "ListaDeAlunos",
-        "projectPath": "C:\\Projetos\\listaDeAlunos\\ListaDeAlunos\\ListaDeAlunos.csproj",
-        "packagesPath": "C:\\Users\\ROBSON\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\listaDeAlunos\\ListaDeAlunos\\obj\\",
+        "projectPath": "C:\\Projetos\\digitalinnovationone-aluno-nota-e-media\\ListaDeAlunos.csproj",
+        "packagesPath": "C:\\Users\\Robson\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos\\digitalinnovationone-aluno-nota-e-media\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ROBSON\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Robson\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

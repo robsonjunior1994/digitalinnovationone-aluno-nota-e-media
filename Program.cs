@@ -1,13 +1,4 @@
-﻿/*
-
-Criar aluno, ao criar informe nome, nota
-Criar um conjunto de alunos
-Listar os alunos e suas notas
-media geral de todos os alunos
-
-*/
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using ListaDeAlunos.Models;
 
@@ -17,28 +8,61 @@ namespace ListaDeAlunos
     {
         static void Main(string[] args)
         {
-            Aluno a1 = new Aluno("Robson", 9);
-            Aluno a2 = new Aluno("Joyce", 10);
-            Aluno a3 = new Aluno("Tuti", 5);
+            Console.WriteLine("Bem vindo ao notas aluno: \n");
+            string opcaoUsuario = ObterOpcaoUsuario();
+            Alunos alunos = new Alunos();
 
-            a1.AdicionarNota(8);
-            a2.AdicionarNota(7);
-            a3.AdicionarNota(10);
+            while (opcaoUsuario.ToUpper() != "X")
+            {
+                switch(opcaoUsuario)
+                {
+                    case "1":
+                    Console.WriteLine("Informe o nome do aluno:");
+                    Aluno aluno = new Aluno();
+                    aluno.Nome = Console.ReadLine();
+                    
+                    Console.WriteLine("Informe a nota do aluno:");
+                    aluno.Nota = double.Parse(Console.ReadLine());
 
-            Alunos Alunos = new Alunos();
-            Alunos.Lista.Add(a1);
-            Alunos.Lista.Add(a2);
-            Alunos.Lista.Add(a3);
+                    alunos.Lista.Add(aluno);
+                    break;
 
-            Console.Write("*-------------------------------*");
-            Alunos.ListarInormacoes();
+                    case "2":
+                    Console.WriteLine("Lista de alunos:");
+                    alunos.GetAlunos();
+                    break;
 
-            Console.WriteLine("\n\n*-------------------------------*");
-            Alunos.ListarAlunosESuasMedias();
+                    case "3":
+                    alunos.GetMedia();
+                    Console.WriteLine($"Média dos alunos: {alunos.MediaGeral}");
 
-            Console.WriteLine("\n*-------------------------------*");
-            Alunos.GetMediaDeTodosOsAlunos();
+                    break;
 
+                    case "x":
+                    Console.WriteLine("Sair");
+                    break;
+
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+                 
+                opcaoUsuario = ObterOpcaoUsuario();
+            } 
+        }
+
+        private static string ObterOpcaoUsuario()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Informe a opção desejada:");
+            Console.WriteLine("1- Inserir novo aluno");
+            Console.WriteLine("2- Listar alunos");
+            Console.WriteLine("3- Calcular média geral");
+            Console.WriteLine("X- Sair");
+            Console.WriteLine();
+
+            string opcaoUsuario = Console.ReadLine();
+            Console.WriteLine();
+            return opcaoUsuario;
         }
     }
 }
