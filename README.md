@@ -5,7 +5,9 @@ Exercício da aula
 
 Implementando o exercício dessa aula, com um toque mais avançado usando listas ao invés de arrays como é proposto na aula.
 
- - Criar aluno, ao criar informe nome, nota
- - Criar um conjunto de alunos
- - Listar os alunos e suas notas
- - Imprimir média geral de todos os alunos
+- [ ] Criar um menu, enquanto não for digitado uma tecla de sair liste as opções de: 
+      Informar um aluno; Listar alunos; Listar alunos e suas médias; listar media geral; e sair.
+- [ ] Criar aluno, ao criar informe nome, nota
+- [ ] Criar um conjunto de alunos
+- [ ] Listar os alunos e suas notas
+- [ ] Imprimir média geral de todos os alunos
